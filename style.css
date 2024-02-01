@@ -1,0 +1,102 @@
+body {
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+   font-size: 40px;
+}
+
+h2 {
+   font-size: 35px;
+}
+
+h3 {
+   margin: 40px 0;
+}
+
+p {
+   margin-bottom: 50px;
+}
+
+.orange {
+   color: orange;
+}
+
+.header {
+   display: flex;
+   background-image: url(images/top-banner.png);
+   background-repeat: no-repeat;
+}
+
+.width {
+   width: 50%;
+   padding-left: 7%;
+}
+
+.header .width img {
+   display: block;
+   width: 70%;
+   margin: 30px auto;
+   text-align: center;
+   padding-right: 10%;
+}
+
+#margin {
+   margin-top: 100px;
+}
+
+.width a {
+   color: whitesmoke;
+   text-decoration: none;
+   background-image: linear-gradient(rgb(227, 33, 33), rgb(246, 75, 45));
+   padding: 10px 40px;
+   border-radius: 5px;
+}
+
+.body-part-1 {
+   display: flex;
+   margin-top: 150px;
+   background-image: url(images/dream-bg.png);
+   background-position: right;
+   background-repeat: no-repeat;
+}
+
+.body-part-1 img {
+   width: 75%;
+}
+
+.body-part-1 .width p {
+   width: 90%;
+}
+
+.body-part-2 {
+   margin: 150px auto;
+   background-image: url(images/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: 0 75%;
+}
+
+.flex {
+   display: flex;
+}
+
+.common {
+   width: 40%;
+   margin: 50px auto;
+   box-shadow: 10px 10px 40px gray;
+   padding: 10px 30px;
+}
+
+#full-stack {
+   border-left: 8px solid orangered;
+}
+
+#junior {
+   border-left: 8px solid blue;
+}
+
+footer p {
+   text-align: center;
+}
